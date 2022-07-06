@@ -1,0 +1,190 @@
+body {
+    background-color: #ddf1f774;
+    font-family: "Helvetica";
+    color: #b000d8;
+    width: 90%;
+    margin: 0 auto;
+  }
+  /*boton*/
+  a {
+    background-color: rgb(244, 244, 244);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  a:hover {
+    animation-name: botones;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes botones {
+    from {
+      background-color: rgb(241, 153, 45);
+    }
+    to {
+      background-color: rgb(129, 25, 247);
+      padding: 15px;
+    }
+  }
+  /*portada/*/
+
+  header{
+    background-color: #d36e95;
+    padding: 10px;
+    height: 1200px;
+   max-width: 1000%;
+  }
+  .conteiner-hedear{
+    width: 100%;
+    max-width:1200px;
+   margin: 0 auto;
+   background-image: url("portada1.jpg");
+   position: relative;
+  }
+  .logo{
+    justify-content:center;
+    display:flex
+  }
+  .logo image{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+/*articulo/*/
+  .container2 {
+    border-image-width: 50px;
+    image-rendering:pixelated;
+    text-align: center;
+  }
+  h1 {
+    border-image-width: 50px;
+    image-rendering:pixelated;
+    text-align: center;
+    font-size: 50pt;
+    font-family: sans-serif;
+    text-shadow: 10px 11px 18px rgba(300, 180, 100, 1),
+    -10px -11px 18px red;
+    }
+ h4{
+  background-color: #519fcf36;
+ }
+  .contenido {
+    background-color: #7ef4f4;
+    color: #f900bf54;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    position: relative;
+  }
+
+  p {
+    color: #000000;
+    font-family: "arial black";
+    background-color: rgba(0, 0, 0, 0.225);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+  .contenedor {
+    background-color: #f900bf5a;
+    padding: 15px;
+    height: auto;
+    border-radius: 5%;
+    position:relative;
+  }
+  .container1 {
+    display: flex;
+  flex-direction: row-reverse;
+  justify-content:space-around;  
+  }
+ .contenidos2{
+  width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 60px;
+    margin: 5px; 
+   position: relative;
+ }
+ a {
+  background-color: blueviolet;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+a:hover {
+  animation-name: botones;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes botones{
+  from {
+    background-color: blueviolet;}
+  to {
+    background-color: red;
+    padding: 15px;
+  }}
+  /*caja*/
+  .container {
+    position: relative;
+  }
+  .caja {
+    width: 250px;
+    height:100px;
+    background-color: #444fe5;
+    color: rgb(9, 85, 152);
+    text-align:center;
+    line-height: 100px;
+    margin: 10px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  
+  .caja2 {
+    background-color: #c7c0f5cf;
+    -webkit-transition: font-size 1s ease;
+    border-radius: 10%;
+    transition: all 1s ease;
+  }
+  .caja2:hover {
+    font-size: 10px;
+    border-radius: 0%;
+  }
+  .caja8 {
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #6bfd11c0;
+  }
+  .caja8:hover {
+    border-style: solid;
+    border-color: #9aa6da;
+    border-color: rgb(74, 61, 61);
+  }
+  
+  
+    .container8 {
+      display: flex;
+      flex-direction: row-reverse;
+      }
+      .contenedor1 {
+        background-image:url("portada1.jpg") ;
+        background-color: #8b1e8669;
+        padding: 15px;
+        height: auto;
+        border-radius:0%;
+        position:relative;
+      }

@@ -1,0 +1,63 @@
+header{
+    background-color: #c9eefb74;
+    font-family: "Helvetica";
+    width: 90%;
+    margin: 10px;;
+    border: radius 100px;;
+    position: absolute;
+  }
+  .contenedor {
+    background-color: #f900bf5a;
+    padding: 15px;
+    height: auto;
+    border: radius 10px;;
+    position: relative;
+  }
+  h1{
+    background-color: chocolate;
+  }
+  p {
+    color: #000000;
+    font-family: "arial black";
+    background-color: rgba(0, 0, 0, 0.225);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;}
+  a {
+    background-color: rgb(244, 244, 244);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  a:hover {
+    animation-name: botones;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes botones {
+    from {
+      background-color: rgb(241, 153, 45);
+    }
+    to {
+      background-color: rgb(129, 25, 247);
+      padding: 15px;
+    }}
+    .container8 {
+      display: flex;
+      flex-direction: row-reverse;
+      }
+      .contenedor1 {
+        background-image:url("portada1.jpg") ;
+        background-color: #8b1e8669;
+        padding: 15px;
+        height: auto;
+        border-radius:0%;
+        position:relative;
+      }
+      h2{
+        background-color: rgba(223, 82, 183, 0.719);
+      }
